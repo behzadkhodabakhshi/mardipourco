@@ -1,4 +1,5 @@
-﻿using EndPoint.Entities.Product;
+﻿
+using Maripour.EndPoint.Entities.Product;
 using Microsoft.EntityFrameworkCore;
 
 namespace EndPoint.Context

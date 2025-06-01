@@ -1,7 +1,8 @@
 ﻿using EndPoint.Entities.Common;
+using Maripour.EndPoint.Entities.Product;
 using System.ComponentModel.DataAnnotations;
 
-namespace EndPoint.Entities.Product
+namespace Maripour.EndPoint.Entities.Product
 {
     public class Product:BaseEntity
     {

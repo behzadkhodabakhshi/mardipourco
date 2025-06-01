@@ -1,0 +1,8 @@
+﻿@using Maripour.EndPoint.Entities.Product;
+@model List<Product>
+
+@foreach(var item in Model)
+{
+    <a>@item.ProductName</a>
+    <br />
+}

@@ -1,6 +1,7 @@
-﻿using EndPoint.Entities.Product;
+﻿
 using EndPoint.Repository;
 using EndPoint.Services.Interfaces;
+using Maripour.EndPoint.Entities.Product;
 using Microsoft.EntityFrameworkCore;
 
 namespace EndPoint.Services.Impelementations
@@ -18,10 +19,16 @@ namespace EndPoint.Services.Impelementations
             return await productrepository.GetEntitiesQuery().ToListAsync();
         }
 
+        public async Task<Product> GetProductById(long id)
+        {
+            return await productrepository.GetEntityById(id);
+        }
+
+
         public void Dispose()
         {
             throw new NotImplementedException();
         }
-
     }
+       
 }

@@ -1,0 +1,40 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# IIS Express logs
+*.vspscc
+*.vssscc
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider project files
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# Index/cache files
+*.vsidx
