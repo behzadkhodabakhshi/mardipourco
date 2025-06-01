@@ -13,8 +13,8 @@ namespace EndPoint.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var products=await productService.GetAllProduct();
-            return View();
+            var mproducts=await productService.GetAllProduct();
+            return View(mproducts);
         }
     }
 }
