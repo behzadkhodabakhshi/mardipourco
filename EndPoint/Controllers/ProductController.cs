@@ -14,7 +14,7 @@ namespace EndPoint.Controllers
         public async Task<IActionResult> Index()
         {
             var products=await productService.GetAllProduct();
-            return View(products);
+            return View();
         }
     }
 }
